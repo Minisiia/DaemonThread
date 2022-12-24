@@ -13,5 +13,11 @@ public class Main{
         System.out.println("Стан потоку:  \t \t" + t.getState());
         System.out.println("ClassLoader:  \t \t" + t.getContextClassLoader());
         System.out.println("hashCode: \t \t \t" + t.hashCode());
+        System.out.println("Клас потоку : \t \t " + t.getClass());
+        System.out.println("Група потоку:  \t \t \t" + t.getThreadGroup());
+        System.out.println("StackTrace: \t \t " + t.getStackTrace());
+        System.out.println("UncaughtExceptionHandler: " + t.getUncaughtExceptionHandler());
+        System.out.println("Статус потоку/ чи визван interrupt(): " + t.isInterrupted());
+
     }
 }
